@@ -1,8 +1,4 @@
-provider "aws" {
-  region = "us-east-1"
-  access_key = "AKIASMX4MJGA6KA4KJF6"
-  secret_key = "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"
-}
+
 
 resource "aws_instance" "web" {
   ami           = "ami-0261755bbcb8c4a84"
